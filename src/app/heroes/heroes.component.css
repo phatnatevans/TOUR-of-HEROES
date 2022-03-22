@@ -54,10 +54,12 @@
 }
 
 .heroes .badge {
-  display: inline-block;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   font-size: small;
   color: white;
-  padding: .5em;
+  padding: .5rem;
   background-color: #6abb93;
   line-height: 1em;
   margin-right: .8em;
