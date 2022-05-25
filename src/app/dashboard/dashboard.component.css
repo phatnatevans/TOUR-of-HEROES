@@ -2,6 +2,7 @@
 
 h2 {
   text-align: center;
+  font-family: 'Courier New', Courier, monospace;
 }
 
 .heroes-menu {
@@ -19,13 +20,14 @@ h2 {
 }
 
 a {
-  background-color: #3f525c;
+  background-color: #6abb93;
   border-radius: 2px;
   padding: 1rem;
   font-size: 1.2rem;
+  font-family: 'Courier New', Courier, monospace;
   text-decoration: none;
   display: inline-block;
-  color: #fff;
+  color: black;
   text-align: center;
   width: 100%;
   min-width: 70px;
@@ -46,5 +48,5 @@ a {
 }
 
 a:hover {
-  background-color: #000;
+  background-color: #e6e6e6;
 }

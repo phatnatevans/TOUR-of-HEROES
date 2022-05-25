@@ -1,4 +1,8 @@
 /* HeroesComponent's private CSS styles */
+h2 {
+  font-family: 'Courier New', Courier, monospace;
+}
+
 .heroes {
   margin: 0 0 2em 0;
   list-style-type: none;
@@ -11,10 +15,12 @@
   align-items: center;
 }
 
-.heroes button {
+.heroes a {
   flex: 1;
   font-family: 'Courier New', Courier, monospace;
   font-size: 100%;
+  color: black;
+  text-decoration: none;
   cursor: pointer;
   position: relative;
   left: 0;
@@ -23,32 +29,32 @@
   padding: 0;
   border-radius: 4px;
   display: flex;
-  align-items: stretch;
+  align-items: center;
   height: 1.8em;
 }
 
-.heroes button:hover {
+.heroes a:hover {
   color: #2c3a41;
   background-color: #e6e6e6;
   left: .1em;
 }
 
-.heroes button:active {
+.heroes a:active {
   background-color: #525252;
   color: #fafafa;
 }
 
-.heroes button.selected {
+.heroes a.selected {
   background-color: black;
   color: white;
 }
 
-.heroes button.selected:hover {
+.heroes a.selected:hover {
   background-color: #505050;
   color: white;
 }
 
-.heroes button.selected:active {
+.heroes a.selected:active {
   background-color: black;
   color: white;
 }
@@ -64,8 +70,4 @@
   line-height: 1em;
   margin-right: .8em;
   border-radius: 50%;
-}
-
-.heroes .name {
-  align-self: center;
 }
